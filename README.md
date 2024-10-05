@@ -1,2 +1,1 @@
-# CPU-process-scheduling-program
-simulates a CPU process scheduling algorithm using a circular linked list
+This C++ program simulates a CPU process scheduling algorithm using a circular linked list. Each process is represented as a node with attributes such as process_id, execution_time, and remaining_time. The scheduler assigns a fixed quantum of CPU time to each process in each cycle. After each cycle, the remaining time of the running process is updated. Once a process's remaining time reaches zero, it is removed from the list. The program outputs the state of all processes after each cycle, showing the remaining time and indicating which process has completed.
